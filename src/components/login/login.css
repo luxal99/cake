@@ -20,7 +20,7 @@ input {
     box-shadow: 10px 10px 44px -10px rgba(0, 0, 0, 0.75);
 }
 
-button {
+.login-btn {
     text-transform: uppercase;
     letter-spacing: 3px;
     border: 0 !important;

@@ -1,11 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
 import axios from 'axios';
 import './login.css';
 import { Link, Redirect, Route, Switch } from "react-router-dom";
 import logo from '../../assets/img/cake-food-logo-9A487CF7AA-seeklogo.com.png';
-import { useHistory } from 'react-router-dom';
-import Home from '../home/Home'
 import Admin from '../admin/Admin'
 
 class Login extends React.Component {
@@ -61,7 +58,7 @@ class Login extends React.Component {
                                 </div>
 
                                 <div className="btn-div">
-                                    <button onClick={this.auth}>login</button>
+                                    <button className="login-btn" onClick={this.auth}>login</button>
                                 </div>
 
                             </form>

@@ -1,0 +1,36 @@
+.admin-container {
+    -webkit-box-shadow: 10px 10px 44px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 44px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 44px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 2%;
+    padding: 5em;
+    margin-top: 15%;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #d74176 !important;
+}
+
+.nav-link.active {
+    color: #fff !important;
+}
+
+a {
+    color: #121212 !important;
+}
+
+.open-category-dialog-btn {
+    background-color: #121212;
+    -webkit-box-shadow: 10px 10px 44px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 44px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 44px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 3px;
+    border: 1px solid #121212;
+    font-family: 'Poppins', sans-serif;
+    color: #d74176;
+    padding: .7em 2em .7em 2em;
+}
+
+.category-input {
+    width: 100%;
+}
